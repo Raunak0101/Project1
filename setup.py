@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup 
-from typing import List
+from typing import List 
 
 def get_requirements(file_path:str)->List[str]:
     '''
@@ -17,10 +17,10 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-name= "mlproject",
-version="0.0.1",
-author="Raunak",
-author_email="raunakchatterjee.cii@gmail.com",
-packages= find_packages(),
-intsall_requires=get_requirements('requirements.txt')
+    name="MLPROJECT_1",
+    version="0.0.1",
+    author="Raunak",
+    author_email="raunakchatterjee.cii@gmail.com",
+    packages = find_packages(),
+    install_requires = get_requirements('requirements.txt')
 )
